@@ -1,4 +1,9 @@
 #!/bin/ksh
+# This script zeros out unused disk blocks so that those blocks can be 
+# removed from the underlying virtual disk.  This results in a smaller 
+# .box file.
+
+
 
 set -e
 set -x
