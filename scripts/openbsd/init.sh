@@ -3,7 +3,7 @@
 set -e
 set -x
 
-sudo pkg_add curl python-2.7.14
+sudo pkg_add curl
 
 sudo tee /etc/rc.conf.local <<EOF
 sndiod_flags=NO
